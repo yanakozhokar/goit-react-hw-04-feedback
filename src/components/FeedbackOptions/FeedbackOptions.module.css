@@ -1,0 +1,21 @@
+.button {
+  padding: 5px 10px;
+  border: 1px solid #efefef;
+  border-radius: 5px;
+  background-color: transparent;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+}
+
+.button:not(:last-child) {
+  margin-right: 35px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #538ce9;
+  border-color: #538ce9;
+  color: #ffffff;
+}
